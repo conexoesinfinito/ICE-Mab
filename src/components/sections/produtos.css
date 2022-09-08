@@ -28,9 +28,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
+}
+
+.card-prod:hover{
+    animation: flutuacao 2s ease-in-out infinite;
 }
 
 .icon{
     font-size: 4rem;
 
+}
+
+
+@keyframes flutuacao{
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
 }

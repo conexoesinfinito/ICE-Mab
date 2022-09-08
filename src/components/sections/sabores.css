@@ -19,8 +19,14 @@ background: -webkit-linear-gradient(top left, #695C18, #BB4901);
     display: flex;
     flex-direction: column;
     gap: .8rem;
+    transition: 1s ease-in-out;
     
 }
+
+.card-sb:hover{
+    transform: scale3d(1.1 ,1.1 ,2);
+}
+
 .card-sb img{
     width: 100%;
     
@@ -45,6 +51,10 @@ background: -webkit-linear-gradient(top left, #695C18, #BB4901);
     cursor: pointer;
     text-transform:uppercase;
     border: none;
+}
+.btn-desc:hover{
+    background: #000;
+    color: #fff;
 }
 
 .preço{

@@ -1,0 +1,54 @@
+.sabores{
+   width: 100%;
+background: -webkit-linear-gradient(top left, #695C18, #BB4901);
+   background-size: cover;
+   opacity: 0.8;
+}
+
+.sabores .row{
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card-sb{
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    
+}
+.card-sb img{
+    width: 100%;
+    
+}
+.card-sb span{
+   color: #C60F0F;
+    
+}
+
+.descrição{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn-desc{
+    background: #C60F0F;
+    background: -webkit-linear-gradient(top left, #C60F0F, #D7861E);
+    color: #fff;
+    padding:13px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform:uppercase;
+    border: none;
+}
+
+.preço{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #d84646;
+}

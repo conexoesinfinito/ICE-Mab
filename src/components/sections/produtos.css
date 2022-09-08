@@ -1,0 +1,36 @@
+.produtos{
+   
+    background: url(../../images/produtos-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.conteudo-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-left: 15rem;
+    justify-content: end;
+}
+
+.card-prod{
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    -webkit-box-shadow: -4px 9px 34px -5px rgba(0,0,0,0.55);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 4rem;
+
+}

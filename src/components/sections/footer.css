@@ -1,0 +1,11 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer span{
+    text-transform: capitalize;
+}

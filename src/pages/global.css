@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-padding{
+    padding: 100px 0;
+}

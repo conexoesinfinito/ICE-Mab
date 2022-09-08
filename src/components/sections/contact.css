@@ -1,0 +1,40 @@
+.contact{
+  width: 100%;
+  background: url(../../images/background-contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .row{
+    justify-content: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 17px;
+    width: 500px;
+    border: .5px solid rgb(202, 202, 202);
+    border-radius: 20px;
+    background: rgb(255, 255, 255,.5);
+    
+}
+label{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+form input:focus, form textarea:focus{
+    background-color: rgb(0, 0, 0,.2);
+}
+
+.submit{
+    margin-top: 1rem;
+    cursor: pointer;
+
+}

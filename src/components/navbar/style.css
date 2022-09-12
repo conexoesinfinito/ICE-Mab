@@ -57,9 +57,26 @@ nav ul li:hover .sub-menu1 ul{
 
  .logo span{
     color: #C60F0F;
+    animation: flutuacao 2s ease-in-out infinite;
  }
 
  .scroll{
     background: rgb(56, 55, 55,.9);
     padding-bottom: 1rem;
 }
+
+.logo .icon{
+    font-size: 2rem;
+}
+
+
+
+@keyframes flutuacao{
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+}
+

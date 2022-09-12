@@ -1,5 +1,6 @@
 import  React, { useState, useEffect } from "react"
 import './style.css'
+import { FaIceCream} from 'react-icons/fa';
 
 const Navbar = () => {
     const [navbarScroll, setNavbarScroll] = useState(false)
@@ -21,16 +22,16 @@ const Navbar = () => {
         <div className='container'>
             <div className='row'>
         <div className='logo'>
-            <h1>ICE <span>MAB</span></h1>
+            <h1>ICE <span>MAB</span><i className="icon"><FaIceCream /></i></h1>
         </div>
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href=''>Home</a></li>
         <li><a href="#">Sobre</a></li>
         <li><a href="#">Produtos</a>
         
             <div class="sub-menu1">
                 <ul>
-                    <li><a href="#">Outros sabores</a></li>
+                    <li><a href="/sabores">Outros sabores</a></li>
                     <li><a href="#">Mais requisitado</a></li>
                     <li><a href="#">Disponivel</a></li>
                 </ul>

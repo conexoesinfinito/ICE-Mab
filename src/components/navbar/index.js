@@ -1,6 +1,7 @@
 import  React, { useState, useEffect } from "react"
 import './style.css'
 import { FaIceCream} from 'react-icons/fa';
+import { Link } from "gatsby";
 
 const Navbar = () => {
     const [navbarScroll, setNavbarScroll] = useState(false)
@@ -25,13 +26,12 @@ const Navbar = () => {
             <h1>ICE <span>MAB</span><i className="icon"><FaIceCream /></i></h1>
         </div>
     <ul>
-        <li><a href=''>Home</a></li>
-        <li><a href="#">Sobre</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="#">Sobre</Link></li>
         <li><a href="#">Produtos</a>
-        
             <div class="sub-menu1">
                 <ul>
-                    <li><a href="/sabores">Outros sabores</a></li>
+                    <li><Link to="/sabores">Outros sabores</Link></li>
                     <li><a href="#">Mais requisitado</a></li>
                     <li><a href="#">Disponivel</a></li>
                 </ul>

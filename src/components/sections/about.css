@@ -41,5 +41,26 @@
     border-radius: 40px;
     -webkit-box-shadow: -4px 9px 34px -5px rgb(147 131 131 / 55%);
 }
+
+@media(max-width : 500px){
+
+    .img1 {
+        width: 290px;
+    }
+    .img{
+        width: 290px;
+    }
+    .about-cont{
+        width: 100%;
+    }
+
+    .about-cont p{
+        width: 20rem;
+    }
+
+    .text-cont p{
+        width: 12rem;
+    }
+}
     
 

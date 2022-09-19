@@ -19,12 +19,13 @@ const Navbar = () => {
     }
 
   return (
-      <nav className={navbarScroll ? 'navbar scroll' : 'navbar'}>
+      <header className={navbarScroll ? 'navbar scroll' : 'navbar'}>
         <div className='container'>
             <div className='row'>
         <div className='logo'>
             <h1>ICE <span>MAB</span><i className="icon"><FaIceCream /></i></h1>
         </div>
+        <nav className="menu-links">
     <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="#">Sobre</Link></li>
@@ -41,9 +42,10 @@ const Navbar = () => {
         </li>
         <li><a href="#">Contacto</a></li>
     </ul>
+    </nav>
     </div>
 </div>
-</nav>
+</header>
   )
 }
 

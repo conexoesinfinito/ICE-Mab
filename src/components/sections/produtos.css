@@ -48,3 +48,14 @@
         transform: translateY(-10px);
     }
 }
+
+
+@media(max-width : 500px){
+    .conteudo-produtos{
+        padding: 0;
+    }
+    .card-prod {
+        width: 126px;
+        height: 160px;
+    }
+}

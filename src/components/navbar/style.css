@@ -40,11 +40,11 @@
     margin-top: 11px;
 }
 
-nav ul li:hover .sub-menu1 ul{
+header ul li:hover .sub-menu1 ul{
     display: block;
  
  }
- nav ul li:hover .sub-menu1 ul li{
+ header ul li:hover .sub-menu1 ul li{
       width: 150px;
       text-align: center;
       padding: 1rem 0;
@@ -82,6 +82,8 @@ nav ul li:hover .sub-menu1 ul{
 
 
 @media(max-width : 992px){
-    
+  .menu-links{
+    display: none;
+  }
 }
 
